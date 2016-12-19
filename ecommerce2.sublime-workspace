@@ -1,0 +1,949 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Fiel",
+				"Field"
+			],
+			[
+				"Fi",
+				"Fieldset"
+			],
+			[
+				"Fo",
+				"FormHelper\timport"
+			],
+			[
+				"Bull",
+				"BulletinForm\tclass"
+			],
+			[
+				"cach",
+				"cache_control\timport"
+			],
+			[
+				"i18",
+				"i18n_patterns\timport"
+			],
+			[
+				"url",
+				"urlpatterns\tstatement"
+			],
+			[
+				"thi",
+				"thumbnail_file_path\tstatement"
+			],
+			[
+				"th",
+				"thumbnail_file_path\tstatement"
+			],
+			[
+				"fil",
+				"filename_base\tstatement"
+			],
+			[
+				"Ins",
+				"InspirationalQoute\tclass"
+			],
+			[
+				"file",
+				"filename\tparam"
+			],
+			[
+				"time",
+				"timezone_now\timport"
+			],
+			[
+				"un",
+				"unicode_literals\tstatement"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"De",
+				"DEBUG"
+			],
+			[
+				"D",
+				"DEBUG"
+			],
+			[
+				"pos",
+				"post_save\timport"
+			],
+			[
+				"base",
+				"baseline_model\tfunction"
+			],
+			[
+				"num",
+				"num_classes\tstatement"
+			],
+			[
+				"y",
+				"y_train\tstatement"
+			],
+			[
+				"X",
+				"X_train\tstatement"
+			],
+			[
+				"market_di",
+				"market_dict_json\tstatement"
+			],
+			[
+				"mark",
+				"market_dict\tstatement"
+			],
+			[
+				"event",
+				"event_type\tstatement"
+			],
+			[
+				"betfair",
+				"betfair_id\tstatement"
+			],
+			[
+				"bet",
+				"betfair_password\tstatement"
+			],
+			[
+				"mar",
+				"market_book"
+			],
+			[
+				"market",
+				"market_id"
+			],
+			[
+				"price",
+				"price_projection"
+			],
+			[
+				"pp",
+				"pprint"
+			],
+			[
+				"mode",
+				"model_to_dict"
+			],
+			[
+				"get",
+				"get_sample_data\tfunction"
+			],
+			[
+				"data",
+				"data_list\tstatement"
+			],
+			[
+				"mas",
+				"master_list\tstatement"
+			],
+			[
+				"stri",
+				"strip_accents"
+			],
+			[
+				"en",
+				"entry\tstatement"
+			],
+			[
+				"ma",
+				"master_list\tstatement"
+			],
+			[
+				"con",
+				"continue\tkeyword"
+			],
+			[
+				"hea",
+				"header_entries\tstatement"
+			],
+			[
+				"hed",
+				"header_entries\tstatement"
+			],
+			[
+				"pred",
+				"prediction\tforstmt"
+			],
+			[
+				"pre",
+				"prediction\tforstmt"
+			],
+			[
+				"predi",
+				"predictions"
+			],
+			[
+				"prede",
+				"predicted_points\tstatement"
+			],
+			[
+				"predic",
+				"predictions\tstatement"
+			],
+			[
+				"pla",
+				"player_id"
+			],
+			[
+				"opp",
+				"opp_team_name\tstatement"
+			],
+			[
+				"ele",
+				"element_type\tstatement"
+			],
+			[
+				"team_",
+				"team_shortname\tstatement"
+			],
+			[
+				"elem",
+				"element_types"
+			],
+			[
+				"fpl",
+				"fpl_master_data\tstatement"
+			],
+			[
+				"table",
+				"table_data"
+			],
+			[
+				"last",
+				"last_name\tparam"
+			],
+			[
+				"Y",
+				"Y_test\tstatement"
+			],
+			[
+				"X_d",
+				"X_dict_return_val\tstatement"
+			],
+			[
+				"ex",
+				"except\tkeyword"
+			],
+			[
+				"x",
+				"X_legend\tstatement"
+			],
+			[
+				"player",
+				"player_data"
+			],
+			[
+				"X_",
+				"X_list\tstatement"
+			],
+			[
+				"gener",
+				"generate_X_dict\tfunction"
+			],
+			[
+				"goal",
+				"goals_scored\tstatement"
+			],
+			[
+				"o",
+				"opp_team_link\tstatement"
+			],
+			[
+				"op",
+				"oppn_link\tstatement"
+			],
+			[
+				"tab",
+				"table_data\tparam"
+			],
+			[
+				"team_po",
+				"team_points_per_match_last_season"
+			],
+			[
+				"las",
+				"last_season_points\tstatement"
+			],
+			[
+				"player_t",
+				"player_type\tstatement"
+			],
+			[
+				"his",
+				"history_form\tstatement"
+			],
+			[
+				"min",
+				"minutes"
+			],
+			[
+				"mat",
+				"matches_played\tstatement"
+			],
+			[
+				"matc",
+				"matches_played"
+			],
+			[
+				"so",
+				"sorted_history\tstatement"
+			],
+			[
+				"pl",
+				"player_id"
+			],
+			[
+				"lea",
+				"league_table_url\tstatement"
+			],
+			[
+				"hist",
+				"history"
+			],
+			[
+				"high",
+				"high_cutoff\tstatement"
+			],
+			[
+				"test",
+				"test_ratio\tstatement"
+			],
+			[
+				"team_poi",
+				"teams_points_per_match_2013"
+			],
+			[
+				"X_t",
+				"X_test\tstatement"
+			],
+			[
+				"load",
+				"load_dataset"
+			],
+			[
+				"mid",
+				"midfielder_data\tstatement"
+			],
+			[
+				"creat",
+				"create_dataset\tmodule"
+			],
+			[
+				"Y_l",
+				"Y_legend"
+			],
+			[
+				"def",
+				"defaultdict"
+			],
+			[
+				"players",
+				"players_static_data"
+			],
+			[
+				"average_p",
+				"average_ppmls_dict\tstatement"
+			],
+			[
+				"total_min",
+				"total_minls_goalkeeper"
+			],
+			[
+				"dele",
+				"deleted_player_list"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"total",
+				"total_net_transfers"
+			],
+			[
+				"dict",
+				"dict_entry\tstatement"
+			],
+			[
+				"wee",
+				"week_stats"
+			],
+			[
+				"total_g",
+				"total_goals_conceded"
+			],
+			[
+				"matches",
+				"matches_played_in_last_3_weeks\tstatement"
+			],
+			[
+				"cu",
+				"cumulative_stat_dict_3_weeks_ago\tstatement"
+			],
+			[
+				"tot",
+				"total_matches_played_3_weeks_ago"
+			],
+			[
+				"cum",
+				"cumulative_stat_dict\tstatement"
+			],
+			[
+				"avg_pri",
+				"avg_price_drop_form"
+			],
+			[
+				"avg_ne",
+				"avg_net_transfers_form"
+			],
+			[
+				"avg_bps",
+				"avg_bps_form"
+			],
+			[
+				"avg_ass",
+				"avg_assists_form"
+			],
+			[
+				"avg_goal",
+				"avg_goals_form"
+			],
+			[
+				"avg_mi",
+				"avg_minutes_form"
+			],
+			[
+				"avg_po",
+				"avg_points_form"
+			],
+			[
+				"bps",
+				"bps_per_match_played"
+			],
+			[
+				"red",
+				"red_cards_per_match_played"
+			],
+			[
+				"assist",
+				"assists_per_match_played"
+			],
+			[
+				"go",
+				"goals_scored_per_match_played"
+			],
+			[
+				"poi",
+				"points_per_match_played"
+			],
+			[
+				"tota",
+				"total_matches_played"
+			],
+			[
+				"dic",
+				"dict_entry\tstatement"
+			],
+			[
+				"total_",
+				"total_matches_played\tstatement"
+			],
+			[
+				"total_go",
+				"total_goals_scored"
+			],
+			[
+				"upd",
+				"updated_stat_dict\tstatement"
+			],
+			[
+				"oppon",
+				"opponent_name"
+			],
+			[
+				"defa",
+				"default"
+			],
+			[
+				"total_goa",
+				"total_goals_conceded"
+			],
+			[
+				"ent",
+				"entries"
+			],
+			[
+				"wri",
+				"write"
+			],
+			[
+				"dum",
+				"dumps\tfunction"
+			],
+			[
+				"ite",
+				"iteritems\tfunction"
+			],
+			[
+				"point",
+				"points_last_season"
+			],
+			[
+				"player_",
+				"player_13"
+			],
+			[
+				"team",
+				"team_name"
+			],
+			[
+				"fpl16",
+				"fpl16_name\tstatement"
+			],
+			[
+				"tea",
+				"team_list\tstatement"
+			],
+			[
+				"dif",
+				"different_names\tstatement"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 267.0,
+		"last_filter": "prett",
+		"selected_items":
+		[
+			[
+				"prett",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"jso",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"json",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"pret",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/akshat/work/django_cookbook/django-myproject/utils/templatetags/utility_tags.py",
+		"/Users/akshat/work/django_cookbook/django-myproject/support/Web Development with Django Cookbook - Second Edition/django-myproject-03/myproject/templates/base.html",
+		"/Users/akshat/work/django_cookbook/django-myproject/myproject/templates/base_two_columns.html",
+		"/Users/akshat/work/django_cookbook/django-myproject/support/Web Development with Django Cookbook - Second Edition/django-myproject-03/myproject/templates/base_two_columns.html",
+		"/Users/akshat/work/django_cookbook/django-myproject/myproject/templates/base.html",
+		"/Users/akshat/work/django_cookbook/django-myproject/myproject/urls.py",
+		"/Users/akshat/work/django_cookbook/django-myproject/bulletin_board/views.py",
+		"/Users/akshat/work/django_cookbook/django-myproject/bulletin_board/forms.py",
+		"/Users/akshat/work/django_cookbook/django-myproject/bulletin_board/models.py",
+		"/Users/akshat/work/django_cookbook/django-myproject/myproject/templates/bulletin_board/change_bulletin.html",
+		"/Users/akshat/work/django_cookbook/django-myproject/support/Web Development with Django Cookbook - Second Edition/django-myproject-03/bulletin_board/views.py",
+		"/Users/akshat/work/django_cookbook/django-myproject/utils/views.py",
+		"/Users/akshat/work/django_cookbook/django-myproject/bulletin_board/urls.py",
+		"/Users/akshat/work/django_cookbook/django-myproject/myproject/conf/base.py",
+		"/Users/akshat/work/django_cookbook/django-myproject/myproject/templates/block_simple.html",
+		"/Users/akshat/work/django_cookbook/django-myproject/myproject/templates/settings.js",
+		"/Users/akshat/work/django_cookbook/django-myproject/myproject/templates/quotes/change_quote.html",
+		"/Users/akshat/work/django_cookbook/django-myproject/quotes/views.py",
+		"/Users/akshat/work/django_cookbook/django-myproject/quotes/forms.py",
+		"/Users/akshat/work/django_cookbook/django-myproject/quotes/models.py",
+		"/Users/akshat/work/django_cookbook/django-myproject/email_messages/forms.py",
+		"/Users/akshat/work/django_cookbook/django-myproject/email_messages/urls.py",
+		"/Users/akshat/work/django_cookbook/django-myproject/myproject/templates/email_messages/message_to_user.html",
+		"/Users/akshat/work/django_cookbook/django-myproject/email_messages/views.py",
+		"/Users/akshat/work/django_cookbook/django-myproject/.gitignore",
+		"/Users/akshat/work/django_cookbook/django-myproject/myproject/templates/email_messages/message_to_user_done.html",
+		"/Users/akshat/work/django_cookbook/django-myproject/magazine/signals.py",
+		"/Users/akshat/work/django_cookbook/django-myproject/magazine/apps.py",
+		"/Users/akshat/work/django_cookbook/django-myproject/magazine/models.py",
+		"/Users/akshat/work/django_cookbook/django-myproject/magazine/__init__.py",
+		"/Users/akshat/work/django_cookbook/django-myproject/magazine/# _*_ coding: UTF-8 _*_",
+		"/Users/akshat/work/reap_med_data_class/data/master.csv",
+		"/Users/akshat/work/reap_med_data_class/data/master.json",
+		"/Users/akshat/work/reap_med_data_class/main.py",
+		"/Users/akshat/work/whatsnet/.gitignore",
+		"/Users/akshat/work/fplbot/lib/create_dataset.py",
+		"/Users/akshat/work/fplbot/lib/regression_neural_fpl.py",
+		"/Users/akshat/work/fplbot/analysis/urls.py",
+		"/Users/akshat/work/fplbot/lib/player_ml_data.json",
+		"/Users/akshat/work/fplbot/lib/fpl_2016_data.json",
+		"/Users/akshat/work/fplbot/test.py",
+		"/Users/akshat/work/fplbot/lib/FPL2014/Player_Data.csv",
+		"/Users/akshat/work/fplbot/ignored/feature_list.txt",
+		"/Users/akshat/work/fplbot/lib/table_data.json",
+		"/Users/akshat/work/fplbot/lib/2014_static_player_dataset.json",
+		"/Users/akshat/work/fplbot/lib/fpl.ssv",
+		"/Users/akshat/work/fplbot/lib/__init__.py",
+		"/Users/akshat/work/fplbot/lib/FPL2014/Player_Details.csv",
+		"/Users/akshat/work/fplbot/lib/FPL 2014-15/Player_Data.csv",
+		"/Users/akshat/work/fplbot/lib/teams.csv",
+		"/Users/akshat/work/fplbot/ignored/data/FPL 2014-15/Player_Details.csv",
+		"/Users/akshat/work/fplbot/ignored/data/FPL 2014-15/Player_Data.csv",
+		"/Users/akshat/work/fplbot/lib/england_2013-2015_fixtures.csv",
+		"/Users/akshat/work/fplbot/lib/england_2013-2016_fixtures.csv",
+		"/Users/akshat/pythonProjects/fplbot/fplbot/urls.py",
+		"/Users/akshat/munimji/git_ignored/splitwise_create_expense_sample_response.json",
+		"/Users/akshat/munimji/users/models.py",
+		"/Users/akshat/munimji/witio/models.py",
+		"/Users/akshat/munimji/witio/splitwise.py",
+		"/Users/akshat/munimji/witio/fb.py",
+		"/Users/akshat/Library/Application Support/Sublime Text 3/Packages/Pretty JSON/Pretty JSON.sublime-settings",
+		"/Users/akshat/Library/Application Support/Sublime Text 3/Packages/User/Pretty JSON.sublime-settings",
+		"/Users/akshat/munimji/munimji/settings.py",
+		"/Users/akshat/munimji/.gitignore",
+		"/Users/akshat/munimji/requirements.txt",
+		"/Users/akshat/munimji/witio/views.py",
+		"/Users/akshat/munimji/witio/urls.py",
+		"/Users/akshat/munimji/users/tests.py",
+		"/Users/akshat/munimji/witio/witbot.py",
+		"/Users/akshat/rootin0/rootin0/rootin0/settings/common.py",
+		"/Users/akshat/rootin0/rootin0/rootin0/settings/prod.py",
+		"/Users/akshat/munimji/Procfile",
+		"/Users/akshat/testbot/fb_testbot/res/airtel_faq.txt",
+		"/Users/akshat/testbot/testbot/urls.py",
+		"/Users/akshat/shopping_assistant/python/fashion_scrap/fashion_scrap/settings.py",
+		"/Users/akshat/shopping_assistant/python/fashion_scrap/fashion_scrap/items.py",
+		"/Users/akshat/shopping_assistant/python/fashion_scrap/fashion_scrap/spiders/myntra_spider.py",
+		"/Users/akshat/shopping_assistant/python/fashion_scrap/fashion_scrap/pipelines.py",
+		"/Users/akshat/gadia/gadia/spiders/medguideindia_scraper.py",
+		"/Users/akshat/gadia/gadia/items.py",
+		"/Users/akshat/gadia/gadia/pipelines.py",
+		"/Users/akshat/shopping_assistant/python/scraper.py",
+		"/Users/akshat/solar from shobhit/Solar/Assets/Sun.js",
+		"/Users/akshat/Downloads/Planets/Assets/ElipticalProjectFromJeffrey/Scripts/GravityWell.cs",
+		"/Users/akshat/unityProjects/solar_system/Assets/json/solar_system_data.json",
+		"/Users/akshat/rootin0/rootin0/build_models/views.py",
+		"/Users/akshat/Downloads/Planets/Assets/CreateSolarSystem.cs",
+		"/Users/akshat/unityProjects/solar_system/data/data.csv",
+		"/Users/akshat/unityProjects/solar_system/Assets/Plugins/SimpleJSON.cs",
+		"/Users/akshat/unityProjects/solar_system/untitled folder/orbital_data.txt",
+		"/Users/akshat/gadia/medlist.csv",
+		"/Users/akshat/fynd/felix/python scripts/redshift_create_retention_table.py",
+		"/Users/akshat/fynd/felix/python scripts/redshift_fill_retention_table.py"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"block conta",
+			"genre",
+			"Genres",
+			"genre",
+			"Genres",
+			"change",
+			"core",
+			"cipla",
+			"cipl",
+			"master_list",
+			"page_a",
+			"team",
+			"retu",
+			"print",
+			"tranfers",
+			"return -1",
+			"team",
+			"price",
+			"per_match_played",
+			"points",
+			"goals_scored",
+			"match",
+			"lukaku",
+			"points_per_match_last",
+			"pred",
+			"data",
+			"Defender",
+			"goalkeeper",
+			"ppls",
+			"goalkeeper",
+			"goalkeepers",
+			"points",
+			"254,1,",
+			"uero",
+			"344,4",
+			"tranfers",
+			"data_dict",
+			"bps",
+			"goals_scored",
+			"goals_conceded",
+			"minutes",
+			"points",
+			"last_week_stats",
+			"range",
+			"ARS",
+			"w+",
+			"per_matches",
+			"load(",
+			"loads(",
+			"Newcastle United",
+			"West Ham United",
+			"Queens Park Rangers",
+			"Leicester City",
+			"Stoke City",
+			"West Bromwich Albion",
+			"Manchester United",
+			"Swansea City",
+			"Hull City",
+			"Tottenham Hotspur",
+			"Manchester City",
+			"Tottenham Hotspur",
+			"Manchester City",
+			"points_2013 (None if not in 2013 roster),\n        points_2014 (None if not in 2014 roster),\n        points_2015 (None if not in 2015 roster),\n        minutes_2013 (None if not in 2013 roster),\n        minutes_2014 (None if not in 2014 roster),\n        minutes_2015 (None if not in 2015 roster),",
+			"ManChelseaster",
+			"whu",
+			"qpr",
+			"LIV",
+			"NEW",
+			"stk",
+			"sou",
+			"wba",
+			"MUN",
+			"swa",
+			"BUR",
+			"SUN",
+			"HUL",
+			"CHE",
+			"TOT",
+			"AVL",
+			"MCI",
+			"LEI",
+			"EVE",
+			"CRY",
+			"\"1\",1",
+			"2016,\"Liverpool\"",
+			"2015,\"Liverpool\"",
+			"liverpool",
+			"splitwise.",
+			"get_response_string_from_matched_names",
+			"print",
+			"fb.se",
+			"u\"",
+			"'",
+			"session",
+			"payer",
+			"payer_names",
+			"return None",
+			"deleted_cont",
+			"doubt_list.",
+			"doubt",
+			"return",
+			"matched_full_names",
+			"_remove_name_from_unmatched_list",
+			"return",
+			"# remove full name from master list\n                        matched_list.remove(common_full_names[0])",
+			"matched_full_names",
+			"matched_index_list.app",
+			"append[",
+			"unmatched_names",
+			"unmatched_names_without_consec_dupes",
+			"fir",
+			"amount",
+			".get(",
+			"None",
+			"added_context",
+			"print",
+			"quick_reply",
+			"missing_amount_of_money",
+			"_get_all_entity_values",
+			"_get_first_entity_value",
+			"amount_of_money",
+			"print",
+			"consumer",
+			"contributer",
+			"related_",
+			"to_contributer",
+			"user",
+			"fb"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Arsenal",
+			"per_match",
+			"Newcastle",
+			"West Ham",
+			"QPR",
+			"Leicester",
+			"Stoke",
+			"West Brom",
+			"Man Utd",
+			"Swansea",
+			"Hull",
+			"Spurs",
+			"Man City",
+			"Spurs",
+			"Man City",
+			"Manchester",
+			"West Ham United",
+			"Queens Park Rangers",
+			"Liverpool",
+			"Newcastle United",
+			"Stoke City",
+			"Southampton",
+			"West Bromwich Albion",
+			"Manchester United",
+			"Swansea City",
+			"Burnley",
+			"Sunderland",
+			"Hull City",
+			"Chelsea",
+			"Tottenham Hotspur",
+			"Aston Villa",
+			"Manchester City",
+			"Leicester City",
+			"Everton",
+			"Crystal Palace",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ecommerce2.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 192.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
