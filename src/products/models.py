@@ -17,16 +17,25 @@ class ProductManager(models.Manager):
     def all(self, *args, **kwargs):
         return self.get_queryset().active()
 
+    def get_related(self, instance):
+        products_one = self.get_queryset().filter(categories__in=instance.categories.all())
+        products_two = self.get_queryset().filter(default=instance.default)
+        qs = (products_one | products_two).exclude(id=instance.id).distinct()
+        return qs
+
 
 class Product(models.Model):
     title = models.CharField(max_length=120)
     description = models.TextField(blank=True, null=True)
     price = models.DecimalField(decimal_places=2, max_digits=20)
     active = models.BooleanField(default=True)
-    # slug
-    # inventory?
+    categories = models.ManyToManyField('Category', blank=True)
+    default = models.ForeignKey('Category', related_name='default_category', null=True, blank=True)
 
     objects = ProductManager()
+
+    class Meta:
+        ordering = ["-title"]
 
     def __unicode__(self):  # def __str__(self):
         return self.title
@@ -73,9 +82,9 @@ post_save.connect(product_post_saved_receiver, sender=Product)
 def image_upload_to(instance, filename):
     title = instance.product.title
     slug = slugify(title)
-    basename, file_extension = filename.split('.')
-    new_filename = '%s-%s.%s' % (slug, instance.id, file_extension)
-    return 'products/%s/%s' % (slug, new_filename)
+    basename, file_extension = filename.split(".")
+    new_filename = "%s-%s.%s" % (slug, instance.id, file_extension)
+    return "products/%s/%s" % (slug, new_filename)
 
 
 class ProductImage(models.Model):
@@ -84,3 +93,19 @@ class ProductImage(models.Model):
 
     def __unicode__(self):
         return self.product.title
+
+# Product Category
+
+
+class Category(models.Model):
+    title = models.CharField(max_length=120, unique=True)
+    slug = models.SlugField(unique=True)
+    description = models.TextField(null=True, blank=True)
+    active = models.BooleanField(default=True)
+    timestamp = models.DateTimeField(auto_now_add=True, auto_now=False)
+
+    def __unicode__(self):
+        return self.title
+
+    def get_absolute_url(self):
+        return reverse("category_detail", kwargs={"slug": self.slug})
