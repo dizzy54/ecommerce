@@ -20,11 +20,22 @@ $('.item-qty').change(function(){
       $("#jquery-message").text("Added " + data.item_added + " Deleted " + data.deleted)
       if (data.deleted){
         $("#item-"+item).fadeOut();
+        $("#subtotal").text(data.subtotal);
+        $("#taxtotal").text(data.tax_total);
+        $("#carttotal").text(data.cart_total);
       } else {
         $("#item-line-total-"+item).text(data.line_total);
         $("#subtotal").text(data.subtotal);
+        $("#taxtotal").text(data.tax_total);
+        $("#carttotal").text(data.cart_total);
       }
-      showFlashMessage("Cart updated");
+      if (data.total_items == 0 ) {
+        $(".table").fadeOut()
+        var template = "{% include 'carts/empty_cart.html' %}";
+        $(".main-content").html(template);
+      }
+      showFlashMessage(data.flash_message);
+      updateCartItemCount();
     }, 
     error: function(response, error) {
       // console.log(response)
@@ -39,22 +50,40 @@ $('.item-qty').change(function(){
 
 {% block content %}
 
-<table class='table'>
+<div class='row main-content'>
 
-  {% for item in object.cartitem_set.all %}
+  {% if object.cartitem_set.count < 1 %}
 
-    <tr id='item-{{ item.item.id }}'>
-        <td> {{ item.item.get_title }}</td>
-        <td><form action="." method="GET" ><input type='hidden' name='item' value={{ item.item.id }} /><input type='number' class='item-qty' name='qty' value='{{ item.quantity }}' /> <input type='submit' class='btn-update btn btn-link' value='Update item' style='display:none;'/></td>
-        <td id='item-line-total-{{ item.item.id }}'> {{ item.line_item_total }}</td>
-        <td class='text-right'><a href='{{ item.remove }}'>X</a></td>
+  {% include "carts/empty_cart.html" %}
+
+  {% else %}
+
+  <table class='table'>
+
+    {% for item in object.cartitem_set.all %}
+
+      <tr id='item-{{ item.item.id }}'>
+          <td> {{ item.item.get_title }}</td>
+          <td><form action="." method="GET" ><input type='hidden' name='item' value={{ item.item.id }} /><input type='number' class='item-qty' name='qty' value='{{ item.quantity }}' /> <input type='submit' class='btn-update btn btn-link' value='Update item' style='display:none;'/></td>
+          <td id='item-line-total-{{ item.item.id }}'> {{ item.line_item_total }}</td>
+          <td class='text-right'><a href='{{ item.remove }}'>X</a></td>
+      </tr>
+
+    {% endfor %}
+
+    <tr>
+      <td  colspan='4' class='text-right'>Subtotal: <span id='subtotal'>{{ object.subtotal }}</span></td>
     </tr>
+    <tr>
+      <td  colspan='4' class='text-right'>Tax (Estimated): <span id='taxtotal'>{{ object.tax_total }}</span></td>
+    </tr>
+    <tr>
+      <td  colspan='4' class='text-right'>Total: <span id='carttotal'>{{ object.total }}</span></td>
+    </tr>
+  </table>
 
-  {% endfor %}
+  {% endif %}
 
-  <tr>
-    <td id='subtotal' colspan="4" class="text-right">Subtotal: {{object.subtotal}}</td>
-  </tr>
-</table>
+</div>
 
 {% endblock %}
